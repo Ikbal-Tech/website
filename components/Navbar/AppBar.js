@@ -94,12 +94,13 @@ const ResponsiveAppBar = () => {
             >
               {pages.map((page) => (
                 <MenuItem key={page.title} onClick={handleCloseNavMenu}>
-                  <Link
-                    href={page.href}
-                    passHref
-                    target={page.target && page.target}
-                  >
-                    <Typography textAlign="center">{page.title}</Typography>
+                  <Link href={page.href} passHref>
+                    <Button
+                      target={page.target && page.target}
+                      textAlign="center"
+                    >
+                      {page.title}
+                    </Button>
                   </Link>
                 </MenuItem>
               ))}
@@ -118,13 +119,9 @@ const ResponsiveAppBar = () => {
           </Link>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
-              <Link
-                key={page.title}
-                href={page.href}
-                passHref
-                target={page.target && page.target}
-              >
+              <Link key={page.title} href={page.href} passHref>
                 <Button
+                  target={page.target && page.target}
                   onClick={handleCloseNavMenu}
                   sx={{ my: 2, color: "white", display: "block" }}
                 >
