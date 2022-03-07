@@ -1,2 +1,7 @@
-# website
-Project website to publish improvments about project
+# Ikbal Tech Website
+
+This website created for tracking project of Ikbal Tech.
+
+It is a Nextjs project.
+
+Site Link: 
