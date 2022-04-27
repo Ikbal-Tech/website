@@ -66,13 +66,19 @@ const aboutUs = () => {
             width: "60%",
           }}
         >
-          <TeamMember path="/images/team/Abdullah_Yigit.jpeg" name="domates" />
-          <TeamMember path="/images/team/Abdullah_Yigit.jpeg" name="domates" />
-          <TeamMember path="/images/team/Abdullah_Yigit.jpeg" name="domates" />
-          <TeamMember path="/images/team/Abdullah_Yigit.jpeg" name="domates" />
-          <TeamMember path="/images/team/Abdullah_Yigit.jpeg" name="domates" />
-          <TeamMember path="/images/team/Abdullah_Yigit.jpeg" name="domates" />
-          <TeamMember path="/images/team/Abdullah_Yigit.jpeg" name="domates" />
+          <TeamMember path="/images/team/Abdullah_Yigit.jpeg" name="Abdullah Yiğit" />
+          <TeamMember path="/images/team/Ersin_Alcin.jpeg" name="Ersin Alçin" />
+          <TeamMember path="/images/team/Esra_Nur_arican.jpeg" name="Esra Nur Arıcan" />
+          <TeamMember path="/images/team/Melih_sapmaz.jpeg" name="Melih Sapmaz" />
+          <TeamMember path="/images/team/muhammed_ikbal_yazici.jpeg" name="Muhammed İkbal Yazıcı" />
+          <TeamMember path="/images/team/Sena_erdogan.jpeg" name="Sena Erdoğan" />
+          <TeamMember path="/images/team/suleyman_golbol.jpeg" name="Süleyman Gölbol" />
+          <TeamMember path="/images/team/yakup_talha_yolcu.jpeg" name="Yakup Talha Yolcu" />
+          <TeamMember path="/images/team/Baran_solmaz.png" name="Baran Solmaz" />
+          <TeamMember path="/images/team/firat_idi.png" name="Fırat İdi" />
+          <TeamMember path="/images/team/muhammed_oguz.png" name="Muhammed Oğuz" />
+          <TeamMember path="/images/team/Yunus_Emre_Geyik.jpeg" name="Yunus Emre Geyik" />
+          <TeamMember path="/images/team/Yunus_Emre_Geyik.jpeg" name="Yunus Emre Geyik" />
         </Stack>
       </Stack>
     </Stack>
