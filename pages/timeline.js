@@ -82,6 +82,69 @@ const items = [
     cardDetailedText:
       "After sending our idea proposal and getting accepted from instructor. We divided our team to parts. One team for hardware, one team for mobile app and one team for data handling. But all team will work together, if a team fails everyone fails. So, a person should help other team if necessary.",
   },
+  {
+    title: "7 April 2022",
+    cardTitle: "Meeting for Products for buying",
+    cardSubtitle: "Team meeting for deciding which products are essential?",
+    cardDetailedText:
+      "We meet up and argue about, which components, hardware parts should essential to buy. We decided the main parts and investigate some places where we can get those parts. We also decided to buy some components that we think are essential. There are some places to buy. We will look for those places if they are fitting for our expectations.",
+  },
+  {
+    title: "7 April 2022",
+    cardTitle: "Meeting for Products for buying",
+    cardSubtitle: "Team meeting for deciding which products are essential?",
+    cardDetailedText:
+      "We meet up and argue about, which components, hardware parts should essential to buy. We decided the main parts and investigate some places where we can get those parts. We also decided to buy some components that we think are essential. There are some places to buy. We will look for those places if they are fitting for our expectations.",
+  },
+  {
+    title: "14 April 2022",
+    cardTitle: "Buy Hardware Parts",
+    cardSubtitle: "Buying Decided Hardware Parts",
+    cardDetailedText:
+      "We buy decided hardware parts. They will arrive in 3-4 days hopefully and we will start to work on our project hardware part.",
+  },
+  {
+    title: "22 April 2022",
+    cardTitle: "Arriving for products",
+    cardSubtitle: "Products Arrived and Ready to Start",
+    cardDetailedText:
+      "Our hardware parts were arrived. We decided to start our project hardware part in next week.",
+  },
+  {
+    title: "25 April 2022",
+    cardTitle: "First Tests for Hardware",
+    cardSubtitle: "First Communication Tests for Hardware",
+    cardDetailedText:
+      "We started to communicate with hardware. We tested our hardware parts and found that they are working fine. We also looked our mobile app designs and found that it is fine. Although we had some troubles when using bluetooth module. It has not stabile connection with our mobile device. We will try to fix it in next day.",
+  },
+  {
+    title: "26 April 2022",
+    cardTitle: "Fix For Bluetooth Module",
+    cardSubtitle: "Fixing Bluetooth Module with Trying Another Component",
+    cardDetailedText:
+      "After trying and debugging for hours, we decided to try bluetooth module with a different component. We found that it is not working. Other component worked fine. Now, we can communicate with phone and we can use photodiodes without any problem.",
+  },
+  {
+    title: "27 April 2022",
+    cardTitle: "Preparing Presentation and Report",
+    cardSubtitle: "Started to prepare third report and presentation slide",
+    cardDetailedText:
+      "After playing with hardware, We continue with presentation and report parts. Those parts were bit easier than hardware absolutely. Since they are not abstract as hardware for us.",
+  },
+  {
+    title: "28 April 2022",
+    cardTitle: "Last Controls Before Presentation",
+    cardSubtitle: "Controlling Last Things Before Presentation",
+    cardDetailedText:
+      "We controlled almost everything before our presentation. We have some uncompleted parts but since it is the pre presentation and not the final presentation. We think we are ready for this part. This is how our last look like for now.",
+    media: {
+      name: "End Product Look",
+      source: {
+        url: "https://raw.githubusercontent.com/Ikbal-Tech/website/master/public/images/end_product.jpeg",
+      },
+      type: "IMAGE",
+    },
+  },
 ];
 
 const timeline = () => {
