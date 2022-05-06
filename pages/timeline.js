@@ -174,6 +174,20 @@ const items = [
       type: "VIDEO",
     },
   },
+  {
+    title: "6 May 2022",
+    cardTitle: "Analysis of Data with Graphs",
+    cardSubtitle: "Analysis of Data with Graphs and Prepare the 3rd Report",
+    cardDetailedText:
+      "With hardware information and data. We started to output graphs and analysis. We also prepared the 3rd report.",
+    media: {
+      name: "Analysis Graph",
+      source: {
+        url: "/images/graphs/graph_3.jpeg",
+      },
+      type: "IMAGE",
+    },
+  },
 ];
 
 const timeline = () => {
