@@ -145,6 +145,35 @@ const items = [
       type: "IMAGE",
     },
   },
+  {
+    title: "4 May 2022",
+    cardTitle: "Update Hardware For Hat",
+    cardSubtitle: "Updating hardware for using with our hat",
+    cardDetailedText:
+      "After holiday, we started to work again. We assembly our hardware and do some test. It seems everything works as expected. After, we integrate our hardware with our hat. From now on, we can dress our hardware and can test it.",
+    media: {
+      name: "End Product Look with Hat",
+      source: {
+        url: "https://raw.githubusercontent.com/Ikbal-Tech/website/master/public/images/end_product_3.jpeg",
+      },
+      type: "IMAGE",
+    },
+  },
+  {
+    title: "5 May 2022",
+    cardTitle: "Tests with our Hardware",
+    cardSubtitle: "Tests with our Hardware on Hat",
+    cardDetailedText:
+      "After integrating with hat and our hardware. We started to do some tests for our Data Processing team. We collect our data and send our data processing team to handle it.",
+    media: {
+      name: "Data Video",
+      source: {
+        url: "/videos/WhatsApp Video 2022-05-05 at 20.37.58.mp4",
+        type: "mp4",
+      },
+      type: "VIDEO",
+    },
+  },
 ];
 
 const timeline = () => {
