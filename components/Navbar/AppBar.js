@@ -27,6 +27,21 @@ const pages = [
     href: "https://github.com/Ikbal-Tech",
     target: "_blank",
   },
+  {
+    title: "Mobile App Apk",
+    href: "https://drive.google.com/drive/u/4/folders/1BgqZuVtIfgmqcyHNr4w1C9FsR57pO2os",
+    target: "_blank",
+  },
+  {
+    title: "Youtube Video",
+    href: "https://www.youtube.com/watch?v=BNhMHsmblkM",
+    target: "_blank",
+  },
+  {
+    title: "Final Presentation",
+    href: "https://prezi.com/view/gBJ4S9jVLUFPInC9CXwm/",
+    target: "_blank",
+  },
 ];
 
 const ResponsiveAppBar = () => {
