@@ -39,7 +39,7 @@ const aboutUs = () => {
           Who we are?
         </Typography>
         <Typography textAlign="center">
-          We are 13 student/developer who is ready to develop and create value
+          We are 12 student/developer who is ready to develop and create value
         </Typography>
       </Stack>
 
@@ -81,10 +81,6 @@ const aboutUs = () => {
             name="Esra Nur Arıcan"
           />
           <TeamMember
-            path="/images/team/Melih_sapmaz.jpeg"
-            name="Melih Sapmaz"
-          />
-          <TeamMember
             path="/images/team/muhammed_ikbal_yazici.jpeg"
             name="Muhammed İkbal Yazıcı"
           />
@@ -111,8 +107,8 @@ const aboutUs = () => {
             name="Yunus Emre Geyik"
           />
           <TeamMember
-            path="/images/team/Yunus_Emre_Geyik.jpeg"
-            name="Yunus Emre Geyik"
+            path="/images/team/Ahmet_Furkan_Kurban.jpeg"
+            name="Ahmet Furkan Kurban"
           />
         </Stack>
       </Stack>
