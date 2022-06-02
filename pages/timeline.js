@@ -188,8 +188,139 @@ const items = [
       type: "IMAGE",
     },
   },
+  {
+    title: "9 May 2022",
+    cardTitle: "Update Team Member info",
+    cardSubtitle: "Updating Team Member Info with Leftovers",
+    cardDetailedText:
+      "One of our friends is leaved our team. We updated our team info without him.",
+  },
+  {
+    title: "13 May 2022",
+    cardTitle: "Meet for Future Plans",
+    cardSubtitle: "Meeting for Future Plans and Final Product",
+    cardDetailedText:
+      "There were a little part of our hardware that is not working. We fixed it. Also we discussed next steps for our product. We will focus machine learning and mobile experience part in the following days.",
+  },
+  {
+    title: "15 May 2022",
+    cardTitle: "Initialize Azure",
+    cardSubtitle: "Initialize Azure for Machine Learning",
+    cardDetailedText:
+      "We initialized Azure for keeping our modals and our machine learning function. This cloud will keep our machine learning source code and will work like a backend but single function. It is called cloud functions.",
+  },
+  {
+    title: "18 May 2022",
+    cardTitle: "Machine Learning Code and Data Collection",
+    cardSubtitle: "Implement Machine Learning and Discuss Data Collection",
+    cardDetailedText:
+      "We implement our machine learning code with dummy data and test it how it will be work.",
+    media: {
+      name: "First ML Output",
+      source: {
+        url: "/images/ml_first_output.jpeg",
+      },
+      type: "IMAGE",
+    },
+  },
+  {
+    title: "20 May 2022",
+    cardTitle: "Determine Data Collection",
+    cardSubtitle: "Discuss and Find Data Collection",
+    cardDetailedText:
+      "We discussed and find a data collection method as shown in the figure. We will collect our data from our mobile app and will send to a database. After than, We will train our data and get the result from back.",
+    media: {
+      name: "Data Collection",
+      source: {
+        url: "/images/data_collection_method.jpeg",
+      },
+      type: "IMAGE",
+    },
+  },
+  {
+    title: "24 May 2022",
+    cardTitle: "Test and Use Firebase",
+    cardSubtitle: "Testing and Using Firebase",
+    cardDetailedText:
+      "We searched several platforms and methods to keep our database. Finally, we found our solution with Firebase. It enables to keep data without using sql or backend. Since we only need to store our data and not to change or delete every time. It is enough for us.",
+  },
+  {
+    title: "27 May 2022",
+    cardTitle: "Get Ready for Collection Data",
+    cardSubtitle: "Getting ready for collection data from people",
+    cardDetailedText:
+      "After finding firebase and integrating our Azure service. We were ready to collect data from users. We checked everything before collecting data and it seems everything seems okay.",
+  },
+  {
+    title: "30 May 2022",
+    cardTitle: "First Data Collections",
+    cardSubtitle: "Started to Collect Data",
+    cardDetailedText:
+      "After finding firebase and integrating our Azure service. We were ready to collect data from users. We checked everything before collecting data and it seems everything seems okay.",
+    media: {
+      name: "Data Collection First Day",
+      source: {
+        url: "/images/first_day.jpeg",
+      },
+      type: "IMAGE",
+    },
+  },
+  {
+    title: "31 May 2022",
+    cardTitle: "Second Data Collections",
+    cardSubtitle: "Second Data Collection Day and Some Problems",
+    cardDetailedText:
+      "We tested our hardware and ML Modal. It seems it working nice but not perfect. We had some problems too. Our first pin is not working properly. So we fixed and we deleted some broken tests data.",
+    media: {
+      name: "Data Collection Second Day",
+      source: {
+        url: "/images/second_day.jpeg",
+      },
+      type: "IMAGE",
+    },
+  },
+  {
+    title: "01 June 2022",
+    cardTitle: "Third Data Collections",
+    cardSubtitle: "Third Data Collection Day and Some Problems Too",
+    cardDetailedText:
+      "Like previous day, we continued to collect our data. But we had some problems too. Our battery were low but we fixed it and We think it will enough until presentation day.",
+    media: {
+      name: "Data Collection Third Day",
+      source: {
+        url: "/images/third_day.jpeg",
+      },
+      type: "IMAGE",
+    },
+  },
+  {
+    title: "02 June 2022",
+    cardTitle: "Fourth Data Collections and Testing",
+    cardSubtitle: "Fourth Data Collection Day and Testing",
+    cardDetailedText:
+      "After collecting data, We tested our ML Modal. Our results seems were fine but not perfect. We also started to prepare our presentation, final report and youtube vide. We hope everything will be ready before our presentation.",
+    media: {
+      name: "Data Collection Second Day",
+      source: {
+        url: "https://avatars.githubusercontent.com/u/101148714?s=400&u=65680e9b320245e34748dfcf9cfddf5d374003fb&v=4",
+      },
+      type: "IMAGE",
+    },
+  },
+  {
+    title: "03 June 2022",
+    cardTitle: "Final Day - We Hope We Will Pass The Course",
+    cardSubtitle: "Final Day - We Hope We Will Pass The Course",
+    cardDetailedText: "Final Day - We Hope We Will Pass The Course",
+    media: {
+      name: "Final Day - We Hope We Will Pass The Course",
+      source: {
+        url: "https://avatars.githubusercontent.com/u/101148714?s=400&u=65680e9b320245e34748dfcf9cfddf5d374003fb&v=4",
+      },
+      type: "IMAGE",
+    },
+  },
 ];
-
 const timeline = () => {
   return (
     <Stack padding="30px">
