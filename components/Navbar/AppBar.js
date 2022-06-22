@@ -34,7 +34,7 @@ const pages = [
   },
   {
     title: "Youtube Video",
-    href: "https://www.youtube.com/watch?v=BNhMHsmblkM",
+    href: "https://youtu.be/GrEalYtZYaA",
     target: "_blank",
   },
   {
