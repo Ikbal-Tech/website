@@ -320,6 +320,34 @@ const items = [
       type: "IMAGE",
     },
   },
+  {
+    title: "12 June 2022",
+    cardTitle: "Preparing the Real Time Graph",
+    cardSubtitle: "Preparation of the Real Time Graph on Mobile App",
+    cardDetailedText:
+      "After presentation, Instructor said that, We should add an real time graph to our product. We decided to add graph to our mobile app. You can see the graph image above.",
+    media: {
+      name: "Real Time Graph",
+      source: {
+        url: "/images/real_time_graph.png",
+      },
+      type: "IMAGE",
+    },
+  },
+  {
+    title: "20 June 2022",
+    cardTitle: "Preparing the User Guide Manual",
+    cardSubtitle: "Preparation of the User Guide Manual",
+    cardDetailedText:
+      "Our instructor wants an user guide from us. So, We prepared an user guide to show how to use hardware and our mobile app together.",
+    media: {
+      name: "User Guide",
+      source: {
+        url: "/images/user_guide.png",
+      },
+      type: "IMAGE",
+    },
+  },
 ];
 const timeline = () => {
   return (
